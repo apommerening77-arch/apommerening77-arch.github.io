@@ -1,0 +1,148 @@
+body {
+    color: black;
+    font-family: "Source San Pro";
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #70161eff;
+    color: white;
+    height: 600px;
+    align-items: center;
+    border-radius: 30px;
+    Font-family: "playfair Display";
+}
+
+!--deep-space-blue: #1c3144ff;
+--granite: #596f62ff;
+--sage-green: #7ea16bff;
+--tea-green: #c3d898ff;
+--burgundy: #70161eff;
+
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 20px;
+}
+
+.pclass {
+    font-size: 50%;
+    color: #1a1a1a;
+    max-width: 100px;
+}
+
+.centered {
+    text-align: center;
+    font-size: larger;
+}
+
+.header-image {
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.intro {
+    max-width: 1500px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.greeting {
+    max-width: 100%;
+    font-size: 20px;
+    border-bottom: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.past-exper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #70161eff;
+    color: white;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 500px;
+    font-size: larger;
+    padding: 1%
+}
+
+
+.main-content {
+    max-width: 500px;
+    font-size: larger;
+}
+
+
+.skills-content {
+    max-width: 500px;
+    font-size: larger;
+
+}
+
+.university-content {
+    max-width: 500px;
+
+    font-size: larger;
+}
+
+.continuing-education {
+    max-width: 900px;
+    font-size: larger;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #70161eff;
+    color: white;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    Font-family: "playfair Display";
+
+    /* Visited link */
+    a:visited {
+        color: #7ea16bff;
+    }
+
+        {
+
+
+        /* Unvisited link */
+        a:link {
+            color: #596f62ff;
+        }
+
+        /* Mouse over link */
+        a:hover {
+            color: #7ea16bff;
+        }
+
+        /* Selected link */
+        a:active {
+            color: #7ea16bff;
+        }
+    }
+
+
+    !--deep-space-blue: #1c3144ff;
+    --granite: #596f62ff;
+    --sage-green: #7ea16bff;
+    --tea-green: #c3d898ff;
+    --burgundy: #70161eff;
+
+
+
+
+    footer
+}
