@@ -1,7 +1,5 @@
 body {
-    background-image:
-        background-repeat: no-repeat;
-    background-attachment: ;
+
     background-size: cover;
     color: #7ea16bff;
     font-weight: bolder;
@@ -21,14 +19,13 @@ header {
     Font-family: "playfair Display";
 }
 
-!--deep-space-blue: #1c3144ff;
+/*!--deep-space-blue: #1c3144ff;
 --granite: #596f62ff;
 --sage-green: #7ea16bff;
 --tea-green: #c3d898ff;
 --burgundy: #70161eff;
+*/
 
-
-}
 
 .pclass {
     font-size: 50%;
@@ -57,11 +54,26 @@ header {
     font-size: 20px;
     border-bottom: solid black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 20vh;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ai {
+    background-color: #f4f7f4;
+    border-left: 5px solid #4a6741;
+    border-right: 5px solid #4a6741;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 30px;
+    border-radius: 8px;
+    font-style: italic;
+    text-align: center;
+    justify-content: space-evenly;
+
 }
 
 .past-exper {
@@ -76,6 +88,7 @@ header {
     font-size: 35px;
     margin-left: 10px;
     margin-right: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -116,10 +129,11 @@ header {
     justify-content: space-evenly;
     background-color: #596f62ff;
     color: white;
-    align: baseline;
+    align-content: baseline;
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -132,7 +146,6 @@ header {
     justify-content: space-evenly;
     background-color: #596f62ff;
     color: white;
-    align: baseline;
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 20px;
@@ -152,7 +165,7 @@ header {
     width: 100%;
     /* Ensures the row spans the full width */
     height: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 5px;
@@ -172,6 +185,7 @@ header {
     padding: 20px;
     margin-top: 20px;
     margin-left: 60px;
+    margin-bottom: 20px;
     gap: 15px;
 
 
@@ -192,6 +206,7 @@ header {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     border-radius: 30px;
 
 
@@ -281,18 +296,9 @@ a:visited {
     color: #7ea16bff;
 }
 
-.ai {
-    background-color: #f4f7f4;
-    border-left: 5px solid #4a6741;
-    border-right: 5px solid #4a6741;
-    padding: 20px;
-    margin: 30px 30px;
-    border-radius: 8px;
-    font-style: italic;
-    text-align: center;
-}
 
-    {}
+
+
 
 /* Unvisited link */
 a:link {
@@ -308,17 +314,12 @@ a:hover {
 a:active {
     color: #7ea16bff;
 }
-}
 
 
-!--deep-space-blue: #1c3144ff;
+
+/*!--deep-space-blue: #1c3144ff;
 --granite: #596f62ff;
 --sage-green: #7ea16bff;
 --tea-green: #c3d898ff;
 --burgundy: #70161eff;
-
-
-
-
-footer
-}
+*/
