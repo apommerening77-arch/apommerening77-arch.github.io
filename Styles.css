@@ -281,23 +281,33 @@ a:visited {
     color: #7ea16bff;
 }
 
-    {
+.ai {
+    background-color: #f4f7f4;
+    border-left: 5px solid #4a6741;
+    border-right: 5px solid #4a6741;
+    padding: 20px;
+    margin: 30px 30px;
+    border-radius: 8px;
+    font-style: italic;
+    text-align: center;
+}
 
+    {}
 
-    /* Unvisited link */
-    a:link {
-        color: #596f62ff;
-    }
+/* Unvisited link */
+a:link {
+    color: #596f62ff;
+}
 
-    /* Mouse over link */
-    a:hover {
-        color: #7ea16bff;
-    }
+/* Mouse over link */
+a:hover {
+    color: #7ea16bff;
+}
 
-    /* Selected link */
-    a:active {
-        color: #7ea16bff;
-    }
+/* Selected link */
+a:active {
+    color: #7ea16bff;
+}
 }
 
 
